@@ -23,4 +23,6 @@ External developers using this library will be able to:
 
 var sun = new Sun();
 
-Console.print(sun.Get);
+var position = sun.GetPosition(location,time);
+
+Console.print(position.Description);
